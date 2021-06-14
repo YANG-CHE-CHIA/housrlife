@@ -1,0 +1,210 @@
+﻿@media (max-width:1300px) {
+    .news .new_slick .slick-next{
+        right:-30px;
+    }
+    .news .new_slick .slick-prev{
+        left:-30px;
+    }
+}
+@media (max-width:1199px) {
+    .navbar .logo {
+        margin: 10px auto;
+    }
+    .menu_item{
+        margin-bottom: 30px;
+    }
+    .navbar .menu_item .downmenu li.open .dropdown-menu {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    .navbar .menu_item .downmenu li.phone_pd.open .sub-menu {
+        margin-top: -30px;
+    }
+
+    .banner .scroll_txt {
+        display: none;
+    }
+
+    .footer ul {
+        display: block;
+    }
+    .footer ul li {
+        padding: 0 10px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .video .video_btn{
+        height:400px;
+    }
+    .room .room_item .r_title p{
+        font-size:20px;
+    }
+    .footer .container{
+        max-width: 100%;
+    }
+}
+@media (max-width:991px) {
+    .navbar .menu_item .downmenu li a.menu{
+        padding:10px 15px;
+    }
+    .video .video_btn {
+        height: 300px;
+    }
+    .news .new_slick .slick-next,
+    .news .new_slick .slick-prev{
+        width: 30px;
+        height: 83px;
+    }
+    .news .new_slick .slick-next{
+        right: -15px;
+    }
+    .news .new_slick .slick-prev{
+        left: -15px;
+    }
+    .footer ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer ul li{
+        width: 50%;
+    }
+}
+@media (max-width: 767px) {
+    nav{
+        width:100%;
+        padding:0 10px;
+    }
+    .navbar {
+        width:100%;
+        justify-content: space-between;
+    }
+    .navbar .logo {
+        margin: 5px 0;
+        width: 165px;
+        height: 50px;
+    }
+    nav.left .nav_bg {
+        position:fixed;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background:rgba(0,0,0,0.3);
+    }
+    .navbar .menu_item .downmenu{
+        display:block;
+    }
+    .navbar .menu_item .downmenu li{
+        text-align:center;
+        padding:5px 10px;
+    }
+    .navbar .menu_item .downmenu li.phone_pd{
+        padding:0;
+    }
+    .navbar .menu_item .downmenu li a.menu {
+        padding: 0;
+    }
+    .navbar .menu_item {
+        display: block;
+        height: 100vh !important;
+        overflow: auto;
+        background: #fff;
+        width:190px;
+        right: -190px;
+        position: fixed;
+        transition: all 0.6s ease;
+        top: 0;
+        padding-left: 0;
+    }
+    nav.left .navbar .menu_item {
+        right: 0;
+        z-index:1;
+    }
+    .icon_item .fa-bars {
+        display: block;
+    }
+    nav.left .icon_item .fa-bars {
+        display:none;
+    }
+    nav.left .icon_item .fa-times {
+        display: block;
+        right: 200px;
+        z-index: 1;
+        color: #ffffff;
+    }
+    .navbar .menu_item .downmenu li .dropdown-menu {
+        position: relative;
+        float: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar .menu_item .downmenu li .dropdown-menu li a.dropdown-item {
+        padding: 0;
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 500;
+        color: #005eff;
+    }
+    .banner .slick_banner .banner_item .img_big {
+        display: none;
+    }
+    .banner .slick_banner .banner_item .img_small {
+        display: block;
+    }
+    .footer{
+        padding:20px 0;
+    }
+    .footer ul {
+        display: block;
+    }
+    .footer ul li{
+        width:100%;
+        padding:0;
+    }
+    .news .news_btn {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin:20px 0;
+        text-align:center;
+    }
+    .news .new_slick .slick-arrow{
+        width:30px;
+        height:80px;
+    }
+    .news .new_slick .slick-next {
+        right:0;
+        background-size: 100%;
+    }
+    .news .new_slick .slick-prev {
+        left: 0;
+        background-size: 100%;
+    }
+    .video .video_btn {
+        height: 300px;
+    }
+    .video .video_btn a img{
+        width:80px;
+    }
+    .room .room_item {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0 15px;
+    }
+    .room .room_item .r_title p {
+        font-size: 25px;
+    }
+    .about .a_bg{
+        height:600px;
+    }
+    .about .a_info p{
+        font-size:20px;
+    }
+    .fixed_btn.fixed {
+        right: 0;
+    }
+}
+
